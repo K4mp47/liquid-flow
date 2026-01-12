@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
